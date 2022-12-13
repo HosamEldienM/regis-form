@@ -1,0 +1,23 @@
+ .button {
+  background: linear-gradient(113.87deg, #2663df 14.81%, #758ff0 88.76%);
+  border: 0;
+  box-shadow: 0px 6px 18px #9cadf2;
+  border-radius: 10px;
+  height: 40px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 10px;
+}
+button:disabled,
+button:focus:disabled,
+button:hover:disabled,
+button:active:disabled {
+  background: #ccc;
+  border-color: #ccc;
+  color: #666666;
+  cursor: not-allowed;
+}

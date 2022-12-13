@@ -1,0 +1,20 @@
+.logged-container img {
+  width: 350px;
+}
+.logged-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.logged-text h2 {
+  font-size: 46px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 820px) {
+  .logged-text h2 {
+    font-size: 18px;
+    font-weight: 700;
+  }
+}
